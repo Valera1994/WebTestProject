@@ -16,9 +16,8 @@ body{
 }
 
 .btn-primary{
-    background: #1890FF;
+    background: rgba(24, 144, 255, 1);
     border-radius: 2px;
-    border: 1px solid #1890FF;
 }
 
 .btn-outline{

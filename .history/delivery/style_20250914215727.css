@@ -19,6 +19,8 @@ body{
     background: #1890FF;
     border-radius: 2px;
     border: 1px solid #1890FF;
+    padding: 8px 16px;
+    gap: 4px;
 }
 
 .btn-outline{
@@ -26,6 +28,8 @@ body{
     border: 1px solid #D9D9D9;
     border-radius: 2px;
     box-shadow: 0 0 2px 0 black;
+    padding: 8px 16px;
+    gap: 4px;
 }
 
 .header{

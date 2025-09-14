@@ -12,13 +12,11 @@ body{
     padding: 8px 16px;    
     align-items: center;
     gap: 4px;
-    outline: none;
 }
 
 .btn-primary{
-    background: #1890FF;
+    background: rgba(24, 144, 255, 1);
     border-radius: 2px;
-    border: 1px solid #1890FF;
 }
 
 .btn-outline{
