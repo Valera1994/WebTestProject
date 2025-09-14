@@ -1,0 +1,13 @@
+.header{
+    color: red;
+}
+
+.main{
+
+}
+
+.container{
+    border: 1px;
+    border-color: blue;
+    width: 1200px;
+}

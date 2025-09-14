@@ -1,0 +1,16 @@
+@import url("flexboxgrid2.css");
+
+.container{
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+.block1{
+    padding: 32px;
+    background-color: rgba(204, 74, 20, 1);
+}
+
+.block2{   
+    padding: 32px;
+    background-color: rgba(153, 88, 61, 1);
+}

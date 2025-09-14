@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 124px;
+}
+
+.main{
+
+}
+
+.footer{
+    
+}
+
+.container{
+    height: 100%;       
+    width: 1230px;
+    margin: 0px auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}

@@ -1,0 +1,59 @@
+@import url("flexboxgrid2.css");
+
+.row{
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+.block{
+    margin: 8px 0;
+    padding: 32px;    
+}
+
+.block1{    
+    background-color: rgba(204, 74, 20, 1);
+}
+
+.block2{    
+    background-color: rgba(153, 88, 61, 1);
+}
+
+.block3{    
+    background-color: rgba(64, 255, 64, 1);
+}
+
+.block4{    
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.block5{    
+    background-color: rgba(84, 204, 20, 1);
+}
+
+.block6{    
+    background-color: rgba(20, 175, 204, 1);
+}
+
+.block7{    
+    background-color: rgba(61, 138, 153, 1);
+}
+
+.block8{    
+    background-color: rgba(0, 255, 154, 1);
+}
+
+.block9{    
+    background-color: rgba(255, 68, 64, 1);
+}
+
+.block10{    
+    background-color: rgba(204, 33, 107, 1);
+}
+
+.block11{    
+    background-color: rgba(112, 64, 255, 1);
+}
+
+.block12{    
+    background-color: rgba(33, 36, 204, 1);
+}

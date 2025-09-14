@@ -1,0 +1,1 @@
+alert(document.body.children[1].childNodes[0]);

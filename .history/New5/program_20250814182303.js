@@ -1,0 +1,1 @@
+alert(document.body.children[0].childNodes[1].previousSibling);

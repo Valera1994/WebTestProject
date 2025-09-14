@@ -1,0 +1,14 @@
+table {
+    border-collapse:collapse;
+}
+td {
+    /*border: solid thin DarkGrey; *//* для примера открыть */
+    width: 25px;
+    height: 25px;
+}
+.black {
+    background: DarkGrey;
+}
+.white {
+    background: white;
+}

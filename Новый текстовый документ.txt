@@ -1,0 +1,23 @@
+let count = 0;
+let countNum = 0;
+let html = 'Последовательность чисел:<br>';
+while (true){
+    let num = +prompt("Введите число:");
+    if (!isNaN(num) || isFinite(num)){
+        html += `${num} `;
+        countNum++;
+        if(num < 0){
+            count++;
+        }
+    }else{ 
+        if(countNum === 0){
+            html = `Числа не введены`;
+        }else if(count === 0){
+            html += `<br>Отрицательных чисел нет`;
+        }else{
+            html += `<br>Количество отрицательных: ${count}`;
+        }        
+        break;
+    }
+}
+document.write(`${html}`);

@@ -1,0 +1,49 @@
+@import url("normalize.css");
+
+body {
+    margin: 0px auto; /*Расстояние от края элемента до края окна браузера*/
+    font-family: Roboto, sans-serif; /*Устанавливает семейство шрифта*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0; /*Расстояние от края элемента до края другог элемента*/
+}
+
+header{
+    background: rgba(0, 119, 101, 1);
+    width: 100%;
+    height: 85px;
+    box-sizing: border-box;
+    text-decoration: none;    
+}
+
+.logo{
+    width: 185px;
+    height: 45px;
+    background: rgba(0, 119, 101, 1);
+}
+
+nav, ul, li, a{
+    text-decoration: none;
+    
+}
+
+.menu{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    list-style-type: none; /*убирает точки у списка*/
+    display: inline; /*в одну линию*/
+}
+
+.menu_li{
+    
+}

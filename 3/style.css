@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    font-family: 'Exo 2', sans-serif;
+    height: 100%;
+    background-color: #05A88D;
+    
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.main {
+	flex: 1 0 auto;    
+}
+.footer{
+    flex: 0 0 auto;
+    background-color: #05A88D;    
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+    padding: 20px 5%;
+    margin: 20px auto;    
+    display: flex;
+	flex-direction: column;
+}
+.footer__left{
+    display: flex;
+	flex-direction: column;
+}
+.footer__top{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    text-decoration: none;
+    color: #F1E67D;
+    font-family: Exo 2;
+font-weight: 700;
+font-size: 28px;
+vertical-align: middle;
+text-transform: capitalize;
+}
+.text{
+    width: 437px;
+    color:#ffffff;
+    margin: 20px auto;
+    font-family: Exo 2;
+font-weight: 300;
+font-size: 12px;
+vertical-align: middle;
+}
+.contact{
+    font-family: Exo 2;
+    color:#ffffff;    
+font-weight: 700;
+font-size: 14px;
+vertical-align: middle;
+text-transform: uppercase;
+}
+.phone{
+    text-decoration: none;
+    color: #F1E67D;
+    font-family: Exo 2;
+font-weight: 700;
+font-size: 24px;
+vertical-align: middle;
+text-transform: uppercase;
+}
+.address{
+    color:#ffffff;
+    font-family: Exo 2;
+font-weight: 300;
+font-size: 12px;
+vertical-align: middle;
+}
+.footer__right{        
+    display: flex;
+    justify-content: space-between;
+	flex-direction: column;
+    padding: 10px 0;
+    align-items: flex-end;
+    text-align: right;
+    min-width: 250px;
+}
+.line{
+    width: 1440px;
+height: 1px; 
+    background-color: #ffffff;
+    margin: 5px auto;
+}
+.footer__bottom{
+    color:#ffffff;
+    font-family: Exo 2;
+font-weight: 300;
+font-size: 12px;
+vertical-align: middle;
+text-transform: capitalize;
+margin: 20px 0;
+}

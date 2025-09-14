@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COFFEE HOUSE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">        
+        <h1 class="logo">COFFEE HOUSE</h1>
+    </header>
+    <main class="order">
+        <form class="order-form" id="orderForm">
+            <div class="form-inputs">
+                <input class="surname form-text" type="text" placeholder="Введите Фамилию" required>
+                <input class="name form-text" type="text" placeholder="Введите Имя" required>
+            </div>
+            
+            <div class="menu-container">
+                <h2 class="menu-title">Кофе</h2>
+                <div class="menu-section">
+                    <div class="menu-item">
+                        <label>
+                            <input type="checkbox" name="espresso" data-price="80">
+                            <span>Эспрессо 80р.</span>
+                            <input class="quantity" type="number" min="0" value="0" placeholder="0">
+                        </label>
+                    </div>
+                    <div class="menu-item">
+                        <label>
+                            <input type="checkbox" name="latte" data-price="110">
+                            <span>Латте 110р.</span>
+                            <input class="quantity" type="number" min="0" value="0" placeholder="0">
+                        </label>
+                    </div>
+                    <div class="menu-item">
+                        <label>
+                            <input type="checkbox" name="cappuccino" data-price="120">
+                            <span>Капучино 120р.</span>
+                            <input class="quantity" type="number" min="0" value="0" placeholder="0">
+                        </label>
+                    </div>
+                    <div class="menu-item">
+                        <label>
+                            <input type="checkbox" name="americano" data-price="90">
+                            <span>Американо 90р.</span>
+                            <input class="quantity" type="number" min="0" value="0" placeholder="0">
+                        </label>
+                    </div>
+                </div>
+
+                <h2 class="menu-title">Десерты</h2>
+                <div class="menu-section">
+                    <div class="menu-item">
+                        <label>
+                            <input type="checkbox" name="chocolate_cake" data-price="80">
+                            <span>Шоколадный кекс 80р.</span>
+                            <input class="quantity" type="number" min="0" value="0" placeholder="0">
+                        </label>
+                    </div>
+                    <div class="menu-item">
+                        <label>
+                            <input type="checkbox" name="blueberry_cake" data-price="90">
+                            <span>Черничный кекс 90р.</span>
+                            <input class="quantity" type="number" min="0" value="0" placeholder="0">
+                        </label>
+                    </div>
+                    <div class="menu-item">
+                        <label>
+                            <input type="checkbox" name="apple_tart" data-price="100">
+                            <span>Яблочный тарт 100р.</span>
+                            <input class="quantity" type="number" min="0" value="0" placeholder="0">
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="order-summary">
+                <p>Итого: <span class="total-amount">0</span> руб.</p>
+                <button type="submit" class="order-button">ОФОРМИТЬ ЗАКАЗ</button>
+            </div>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

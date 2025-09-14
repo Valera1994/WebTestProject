@@ -1,0 +1,11 @@
+@import url("normalize.css");
+
+body {
+    margin: 0px auto; /*Расстояние от края элемента до края окна браузера*/
+    font-family: Roboto, sans-serif; /*Устанавливает семейство шрифта*/
+}
+
+.logo{
+    width: 185px;
+    height: 45px;
+}

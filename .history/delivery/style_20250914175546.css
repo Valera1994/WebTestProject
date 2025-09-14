@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    color: red;
+}
+
+.main{
+
+}
+
+.container{
+    border: 1px solid blue;    
+    width: 1200px;
+}
