@@ -8,10 +8,6 @@ body{
     max-width: 1200px;
 }
 
-.main{
-    flex-grow: 1;
-}
-
 .page-wrapper{
     display: flex;
     flex-direction: column;

@@ -3,18 +3,13 @@
 }
 
 body{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     max-width: 1200px;
 }
 
-.main{
-    flex-grow: 1;
-}
-
 .page-wrapper{
     display: flex;
-    flex-direction: column;
 }
 
 .btn{
