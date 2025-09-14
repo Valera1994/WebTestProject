@@ -10,13 +10,12 @@ body{
 
 .main{
     flex-grow: 1;
-    
+    background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #F5F5F5 100%);
 }
 
 .page-wrapper{
     display: flex;
     flex-direction: column;
-    background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #F5F5F5 100%);
 }
 
 .btn{
