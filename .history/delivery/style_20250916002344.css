@@ -137,7 +137,7 @@ body {
 }
 
 .banner-item {
-    background-image: url(./images/banners/banners.jpg);
+    background-image: url(./banners/banners.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center right;
